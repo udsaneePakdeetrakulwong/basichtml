@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>การสร้างฟอร์มรับข้อมูล</title>
+        <link href="style/customStyle.css" rel="stylesheet">
+    </head>
+    <body>
+        <a href="index.html">หน้าหลัก</a>
+        <hr>
+        <h1>การสร้างฟอร์มรับข้อมูล</h1>
+
+        <form>
+            <table border="1">
+                <tr>
+                    <td class="txtLabel">คำนำหน้าชื่อ</td>
+                    <td>
+                        <select>
+                            <option>--คำนำหน้าชื่อ--</option>
+                            <option value="1">นาย</option>
+                            <option value="2">นาง</option>
+                            <option value="3">นางสาว</option>
+                            <option value="4">เด็กชาย</option>
+                            <option value="5">เด็กหญิง</option>
+                        </select>
+                    </td>
+                    <td class="txtLabel">เพศ</td>
+                    <td>
+                        <input type="radio" name="gender" value="male">ชาย
+                        <input type="radio" name="gender" value="female">หญิง
+                    </td>
+                </tr>
+                <tr>
+                    <td class="txtLabel">ชื่อลูกค้า</td>
+                    <td><input type="text"  placeholder="ชื่อลูกค้า"/></td>
+                    <td class="txtLabel">นามสกุล</tdclass="txtLabel">
+                    <td><input type="text"  placeholder="นามสกุล"/></td>
+                </tr>
+                <tr>
+                    <td class="txtLabel">เบอร์โทรศัพท์มือถือ</td>
+                    <td><input type="number"  placeholder=""/></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="txtLabel">ที่อยู่</td>
+                    <td colspan="3"><textarea rows="3" cols="60"></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="4" align="center">
+                        <button>บันทึกข้อมูล</button>
+                        <button>ล้างข้อมูล</button>
+                    </td>
+                </tr>
+
+
+            </table>
+
+
+            <!--
+
+            
+            <label>ชื่อลูกค้า : </label>
+            <input type="text"  placeholder="ชื่อลูกค้า"/>
+            <br>
+            <label>นามสกุล : </label>
+            <input type="text"  placeholder="นามสกุล"/>
+            <br>
+            <label>เบอร์โทรศัพท์มือถือ : </label>
+            <input type="number""  placeholder="เบอร์โทร"/>
+
+            -->
+
+        </form>
+
+
+    </body>
+
+</html>
